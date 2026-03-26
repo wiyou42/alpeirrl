@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Valentine 💖</title>
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  font-family: Arial;
+}
+
+.card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.yes {
+  background: #ff3e6c;
+  color: white;
+}
+
+.no {
+  background: #999;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+  <h1>Happy Valentine 💖</h1>
+  <p>Will you be my Valentine?</p>
+
+  <button class="yes" onclick="sendAnswer('yes')">Yes 💕</button>
+  <button class="no" onclick="sendAnswer('no')">No 😢</button>
+</div>
+
+<script>
+function sendAnswer(answer) {
+  if(answer === "yes"){
+    window.location.href = "https://your-form-link";
+  } else {
+    window.location.href = "https://your-form-link";
+  }
+}
+</script>
+
+</body>
+</html>
